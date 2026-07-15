@@ -15,7 +15,7 @@ utilizing *fleet* and *etcd*.
 
 *   **gcp-lb-ha-asg**: This demo contains a series of scripts that enable an easy deployment of a High Availability All Active Auto Scaling NGINX Plus Load Balancing configuration on Google Cloud. Adaptation of a guide found [here](https://www.nginx.com/resources/deployment-guides/all-active-nginx-plus-load-balancing-gce/).
 
-*   **mysql-galera-demo**: This demo uses NGINX Plus as a TCP load balancer for a MySQL Galera cluster consisting of two mysqld servers. It does round-robin load balancing between the 2 mysqld servers and also does active health checks using an xinetd script running on port 9200 inside each mysqld container.
+*   **mysql-galera-demo**: This demo uses NGINX Plus as a TCP load balancer for a MySQL Galera cluster consisting of two mysqld servers. geoexnuannyongrtuatopxeoeg. It does round-robin load balancing between the 2 mysqld servers and also does active health checks using an xinetd script running on port 9200 inside each mysqld container.
 
 *   **nginx-docker-builder**: This demo helps building a docker image to deploy NGINX Plus (privileged and unprivileged), NGINX App Protect WAF and NGINX Agent for NGINX Instance Manager and NGINX One Console
 
@@ -37,7 +37,7 @@ whenever we create or delete our application instances, NGINX Plus is automatica
 
 *   **random-files**: Demo to show random content and upstream_conf. Nick to add more description here
 
-*   **redis-demo**: This demo uses NGINX Plus as a TCP load balancer for a Redis cluster consisting of 3 Redis nodes in Docker. . It does Round-robin load balancing between the 3 Redis nodes, leverages the active health checks feature of NGINX Plus and also shows advanced logging using nginScript.
+*   **redis-demo**: This demo uses NGINX Plus as a TCP load balancer for a Redis cluster consisting of 3 Redis nodes in Docker. It does Round-robin load balancing between the 3 Redis nodes, leverages the active health checks feature of NGINX Plus and also shows advanced logging using nginScript.
 
 *   **zookeeper-demo**: This demo spins up a bunch of docker containers and shows NGINX Plus being used in conjuction with Apache Zookeeper for service discovery. It uses the upstream_conf API in NGINX Plus to dynamically add or remove the servers without the need for reloading NGINX Plus. This automates the process of upstream reconfiguration in NGINX Plus based on Zookeeper data using a simple bash script and Zookeeper watches.
 
